@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-10-08 16:26:07
- * @LastEditTime: 2020-10-11 11:00:21
+ * @LastEditTime: 2020-10-11 11:13:09
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /node-demo-1/server.js
@@ -45,7 +45,6 @@ var server = http.createServer(function (request, response) {
     <script src="/y"></script>
     </body>
     `);
-
     response.end();
   } else if (path === "/x") {
     response.statusCode = 200;
